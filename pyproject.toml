@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "zona-the-secret-of-chernobyl"
+version = "0.1.0"
+description = ""
+authors = ["Chimney343"]
+readme = "README.md"
+packages = [{include = "zona_the_secret_of_chernobyl"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+jupyterlab = "^3.5.2"
+black = "^22.12.0"
+isort = "^5.11.4"
+jupyterlab-code-formatter = "^1.5.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
